@@ -1,0 +1,92 @@
+/* Portfolio css */
+
+/* IMPORT FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');   
+
+/* BACKGROUND */
+
+body{
+    background: rgb(55, 91, 99);
+    max-width: 1000px;
+    margin: auto;
+} 
+
+p.title {
+    text-align: center;
+    color:  rgb(104, 241, 173);
+    font-size: 2.2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+p.subtitle {
+    color: rgb(89, 129, 139);
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+
+p {
+    align-items: center;
+    text-align: left;
+    color: rgb(250, 250, 250);
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-wrap: break-all;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.1rem;}
+
+    .leader{
+        text-align: left;
+        color:  rgba(92, 243, 208, 0.86);
+        font-size: 2.2rem;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 50px;
+        font-size: 50px;
+        padding: 0px;
+        margin-bottom: 0px;
+}
+
+.bcontainer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;;
+        gap: 30px 30px;
+        margin-top: 30px;
+        border-style: solid;
+        border-color: rgb(2, 149, 129);
+        padding: 30px;
+        border-radius: 15px;
+        background-color: rgb(255, 255, 255);
+
+}
+
+/*LINKS*/
+
+    a:link, a:visited {
+        color:  rgba(92, 243, 208, 0.86);
+        opacity: 1;
+        text-decoration: underline;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color:rgb(154, 197, 191);
+        text-decoration: none;
+    }
+
+    /* selected link */
+    a:active {
+        text-decoration: underline;
+    }
+
+    /* tab selection over link */
+    a:focus {
+        color: rgb(154, 197, 191);
+        text-decoration: none;
+    }
